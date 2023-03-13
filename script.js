@@ -25,7 +25,7 @@ document.querySelector('.check').addEventListener
         if (!guess) {
             console.log(document.querySelector('.message').textContent = "select a number 🤷‍♀️");
         } else if (guess === a) {
-            (document.querySelector(".message").textContent = "correct number 🤷‍♀️");
+            (document.querySelector(".message").textContent = "correct number 💥");
             document.querySelector('.number').textContent = a;
             document.querySelector('body').style.backgroundColor ='green';
             document.querySelector('.number').style.width='30rem' ;
